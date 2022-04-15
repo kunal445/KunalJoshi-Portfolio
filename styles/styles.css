@@ -230,3 +230,7 @@ html {
 html {
   font-size: 125%;
 }
+
+ul {
+  list-style: none;
+}
