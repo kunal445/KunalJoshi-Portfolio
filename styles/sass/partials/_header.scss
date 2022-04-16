@@ -1,0 +1,19 @@
+header {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 10vh;
+
+        a {
+            color: $black;
+            padding: 20px;
+            border: 1px solid red;
+        }
+    }
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+}
