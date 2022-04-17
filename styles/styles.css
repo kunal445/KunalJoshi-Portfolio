@@ -285,7 +285,7 @@ h3 {
   line-height: 27px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  border: 1px solid red;
+  margin: 20px 0;
 }
 
 p {
@@ -330,7 +330,7 @@ header ul a {
   padding: 20px 0;
 }
 
-.about {
+.about, .projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,5 +338,8 @@ header ul a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 50px 0;
 }
