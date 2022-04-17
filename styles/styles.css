@@ -229,6 +229,7 @@ html {
 
 html {
   font-size: 125%;
+  color: #2b2b2b;
 }
 
 ul,
@@ -248,15 +249,82 @@ p {
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
-}
-
 img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-size: 0.8;
+  line-height: 45px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+a:hover {
+  color: #015fc1;
+}
+
+h1 {
+  font-size: 3.15rem;
+  line-height: 3.15rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px 0;
+}
+
+h3 {
+  font-size: 1.8rem;
+  line-height: 27px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  position: relative;
+}
+h3::after {
+  content: "_____";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+p {
+  font-size: 0.8rem;
+  line-height: 28px;
+  color: #545454;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
 header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+}
+header ul a {
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.headerContent {
+  background-color: #f5f4f2;
+  border-top: 1px solid #e1e1e1;
+}
+.headerContent .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -266,19 +334,5 @@ header ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 10vh;
-}
-header ul a {
-  color: #2b2b2b;
-  padding: 20px;
-  border: 1px solid red;
-}
-
-.headerContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding: 20px 0;
 }
