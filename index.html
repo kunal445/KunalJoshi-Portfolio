@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kunal's Portfolio</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/0f0aeebdbb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="home">
@@ -41,15 +42,22 @@
 
     <main class="wrapper"> 
         <section id="about" class="about">
-            <h3>About</h3>
+            <h3>About<span class="headingStyle"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, facilis. Error eius sit nesciunt cupiditate, laboriosam distinctio culpa illum dignissimos reiciendis, facere libero velit neque beatae voluptatum, debitis quam doloribus blanditiis repellendus rem ipsum harum fuga asperiores enim. Nemo beatae cumque hic aperiam dolores exercitationem maiores deleniti. Assumenda beatae cum dignissimos unde distinctio qui repellat tempore, in optio a repudiandae, quo saepe nulla est placeat necessitatibus atque nobis repellendus earum. Deserunt nam dignissimos quisquam adipisci necessitatibus iure, id animi corporis sit aliquam. Accusantium voluptates animi eos tenetur magni eaque ex pariatur dignissimos eius beatae. Minima, odit accusamus illo at consequuntur ipsam voluptates obcaecati dolores, vitae distinctio illum suscipit earum, iusto eum totam nobis aliquid molestiae dicta similique excepturi. Nisi praesentium impedit porro rem perspiciatis atque iste quam hic repudiandae, repellendus voluptate quisquam doloremque suscipit dolorem, molestias modi pariatur fuga asperiores amet voluptatum autem beatae distinctio! Similique consequatur velit voluptatum eum expedita molestiae dolor dolorum. Consectetur eius delectus minima odit quos consequatur quidem sint quod, facilis officia quae hic, nulla esse nemo veritatis, sunt omnis minus dolor? Corporis eos corrupti reprehenderit dicta odio soluta natus cupiditate officia eum. Ea quos veritatis unde temporibus debitis, magnam eos quisquam aspernatur ducimus sit totam!</p>
             <div class="skill">
-                <h3>Skills</h3>
+                <h3>Skills<span class="headingStyle"></span></h3>
                 <!-- add icons for all the skills i use here, htlm, css, next.js ect -->
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-git-alt"></i>
+                <i class="fa-brands fa-sass"></i>
+                <i class="fa-brands fa-react"></i>
+                <!-- look some icons for typescript , next.js , jquery, firebase -->
             </div>
         </section>
         <section id="projects" class="projects">
-            <h3>Projects</h3>
+            <h3>Projects<span class="headingStyle"></span></h3>
             <div class="card">
                 <!-- has the background of the project -->
                 <!-- this p tag will be off until you hover over or click on the div button -->
@@ -57,15 +65,16 @@
             </div>
         </section>
 
-        <section>
-            <h3>Contact</h3>
+        <section id="contact" class="contact">
+            <h3>Contact <span class="headingStyle"></span></h3>
             <form action="">
                 <label for="name" class="sr-only">Name</label>
                 <input type="text" id="name" placeholder="Name">
                 <label for="email" class="sr-only">Email</label>
                 <input type="email" id="email" placeholder="Email">
-                <label for="comment" class="sr-only">comment</label>
-                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="comment"></textarea>
+                <label for="message" class="sr-only">comment</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <button type="submit">Send message</button>
             </form>
         </section>
     </main>
@@ -75,19 +84,19 @@
             <ul>
                 <li>
                     <!-- these should be icons -->
-                    <a href="https://github.com/kunal445" target="_blank"> Github </a>
+                    <a href="https://github.com/kunal445" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </li>
                 <li>
                     <!-- these should be icons -->
-                    <a href="https://www.linkedin.com/in/kunal-joshi1/" target="_blank"> LinkedIn </a>
+                    <a href="https://www.linkedin.com/in/kunal-joshi1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </li>
                 <li>
                     <!-- these should be icons -->
-                    <a href="https://twitter.com/kunalj12" target="_blank"> Twitter </a>
+                    <a href="https://twitter.com/kunalj12" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                 </li>
                 <li>
                     <!-- these should be icons -->
-                    <a href="https://medium.com/@kunalj12" target="_blank"> Medium </a>
+                    <a href="https://medium.com/@kunalj12" target="_blank"><i class="fa-brands fa-medium"></i></a>
                 </li>
             </ul>
         </div>
