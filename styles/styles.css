@@ -285,14 +285,7 @@ h3 {
   line-height: 27px;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
-  position: relative;
-}
-h3::after {
-  content: "_____";
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  border: 1px solid red;
 }
 
 p {
@@ -335,4 +328,15 @@ header ul a {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 0;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px 0;
 }
