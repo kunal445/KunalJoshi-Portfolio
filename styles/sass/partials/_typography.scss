@@ -1,4 +1,4 @@
-@import url('https: //fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;700&display=swap');
+
 
 html {
     // setting base px to 20px
@@ -35,8 +35,11 @@ a {
     font-weight: 400;
     font-family: $headingFont;
 
-    &:hover {
+    &:hover,
+    &:focus {
         color: $blue1;
+        border: 1px solid $blue1;
+        border-radius: 5px;
     }
 }
 
@@ -61,7 +64,7 @@ h3 {
     font-weight: 600;
     font-family: $headingFont;
     margin: 20px 0;
-    text-align: center;
+    
 }
 
 p {
@@ -70,4 +73,23 @@ p {
     color: $gray;
     font-weight: 400;
     font-family: $regularFont;
+}
+
+button {
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: #ffffff;
+    background-color: $blue1;
+    font-weight: 700;
+    font-family: $regularFont;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 170px;
+    height: 45px;
+
+    &:hover,
+    &:focus {
+        background-color: $blue2;
+    }
 }
