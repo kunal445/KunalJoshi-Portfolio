@@ -1,7 +1,10 @@
+
 .contactForm {
+    align-self: flex-start;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 70%;
 
     input {
         width: 45%;
@@ -17,3 +20,4 @@
         font-family: $regularFont;
     }
 }
+
