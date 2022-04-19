@@ -34,11 +34,12 @@ a {
     line-height: 45px;
     font-weight: 400;
     font-family: $headingFont;
+    border: 1px solid transparent;
 
     &:hover,
     &:focus {
         color: $blue1;
-        border: 1px solid $blue1;
+        border-color: $blue1;
         border-radius: 5px;
     }
 }
