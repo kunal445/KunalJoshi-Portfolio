@@ -229,6 +229,7 @@ html {
 html {
   font-size: 125%;
   color: #2b2b2b;
+  scroll-behavior: smooth;
 }
 
 ul,
@@ -363,7 +364,6 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 50px 0;
 }
 
 h3 {
@@ -430,6 +430,8 @@ h3 .smallBlock {
   width: 45%;
   padding: 10px;
   font-family: "Open Sans", sans-serif;
+  border-color: #0074d4;
+  border-radius: 5px;
 }
 .contactForm textarea {
   width: 100%;
@@ -437,4 +439,47 @@ h3 .smallBlock {
   padding: 10px;
   margin: 50px 0;
   font-family: "Open Sans", sans-serif;
+  border-color: #0074d4;
+  border-radius: 5px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.socials li {
+  margin: 10px 30px;
+  min-width: 40px;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.socials a {
+  font-size: 40px;
+  padding: 20px 20px;
+}
+.socials a:hover {
+  color: red;
 }
