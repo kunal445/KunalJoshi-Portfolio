@@ -348,6 +348,9 @@ header ul a {
           align-items: center;
   padding: 20px 0;
 }
+.headerContent img {
+  border-radius: 50%;
+}
 
 section {
   display: -webkit-box;
@@ -413,8 +416,6 @@ h3 .smallBlock {
 }
 
 .contactForm {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
