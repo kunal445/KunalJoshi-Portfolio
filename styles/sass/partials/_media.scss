@@ -1,0 +1,46 @@
+@media (max-width:970px) {
+    .headerContent {
+
+        .wrapper {
+            flex-direction: column;
+        }
+
+        img {
+            margin: 20px 0 ;
+        }
+
+        h1{
+            margin-top:50px;
+        }
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+    
+        img {
+            width: 80%;
+            margin-bottom: 50px;
+        }
+    
+        .contentContainer {
+            width: 80%;
+        }
+    
+    }
+}
+
+@media (max-width:670px) {
+    .contactForm{
+        flex-direction: column;
+
+        input{
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        textarea {
+            margin: 20px 0;
+        }
+    }
+}
