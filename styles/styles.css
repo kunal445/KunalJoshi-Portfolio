@@ -260,12 +260,9 @@ a {
   line-height: 45px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  border: 1px solid transparent;
 }
 a:hover, a:focus {
   color: #0074d4;
-  border-color: #0074d4;
-  border-radius: 5px;
 }
 
 h1 {
