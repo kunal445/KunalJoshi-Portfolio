@@ -291,6 +291,14 @@ h3 {
   margin: 20px 0;
 }
 
+h4 {
+  font-size: 1rem;
+  line-height: 27px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0;
+}
+
 p {
   font-size: 0.8rem;
   line-height: 28px;
@@ -415,6 +423,24 @@ h3 .smallBlock {
 }
 .skill i {
   font-size: 80px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px 0;
+}
+.card img {
+  width: 30%;
+  -webkit-box-shadow: 5px 5px #0074d4;
+          box-shadow: 5px 5px #0074d4;
+  margin-right: 20px;
+}
+.card .contentContainer {
+  width: 60%;
 }
 
 .contactForm {
