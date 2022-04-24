@@ -61,4 +61,15 @@ h3{
     .contentContainer {
         width: 60%;
     }
+    a {
+        color: $blue1;
+        border: none;
+        margin-right: 20px;
+    
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+            color: $blue2;
+        }
+    }
 }

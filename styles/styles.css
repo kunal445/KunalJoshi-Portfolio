@@ -442,6 +442,15 @@ h3 .smallBlock {
 .card .contentContainer {
   width: 60%;
 }
+.card a {
+  color: #0074d4;
+  border: none;
+  margin-right: 20px;
+}
+.card a:hover, .card a:focus {
+  text-decoration: underline;
+  color: #00a2eb;
+}
 
 .contactForm {
   display: -webkit-box;
