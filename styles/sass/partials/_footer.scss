@@ -23,8 +23,9 @@ footer {
         font-size: 40px;
         padding: 20px 20px;
 
-        &:hover{
-            color: red;
+        &:hover,
+        &:focus{
+            transform: scale(1.25);
         }
     }
 }

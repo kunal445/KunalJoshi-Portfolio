@@ -33,6 +33,7 @@
 @media (max-width:670px) {
     .contactForm{
         flex-direction: column;
+        width: 90%;
 
         input{
             width: 100%;
@@ -41,6 +42,31 @@
 
         textarea {
             margin: 20px 0;
+        }
+    }
+
+    header {
+        ul {
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+        }
+
+        li {
+            width: 100%;
+            display: flex;
+            justify-content:center
+        }
+
+        a{
+            width: 100%;
+            text-align: center;
+            
+            &:hover,
+            &:focus {
+                background-color: $blue3;
+                border-radius: 10px
+            }
         }
     }
 }

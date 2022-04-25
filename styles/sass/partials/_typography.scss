@@ -35,6 +35,7 @@ a {
     line-height: 45px;
     font-weight: 400;
     font-family: $headingFont;
+    transition: 0.2s;
 
     &:hover,
     &:focus {
@@ -96,7 +97,7 @@ button {
     border-radius: 5px;
     width: 170px;
     height: 45px;
-
+    transition:  0.3s;
     &:hover,
     &:focus {
         background-color: $blue2;
