@@ -64,11 +64,12 @@
             align-items: center;
             position: fixed;
             left: -100%;
-            top:30px;
-            background-color: rgba(128, 128, 128, 0.365);
+            top:35px;
             width: 100%;
+            min-height: 90vh;
             border-radius: 25px;
             transition: 0.3s;
+            
         }
 
         .showMe{
@@ -78,17 +79,23 @@
         li {
             width: 100%;
             display: flex;
-            justify-content:center
+            justify-content:center;
+            margin: 20px 0;
         }
 
         a{
             width: 100%;
             text-align: center;
+            color: white;
+            background-color: $blue1;
+            border-radius: 25px;
+            
             
             &:hover,
             &:focus {
-                background-color: $blue3;
-                border-radius: 10px
+                background-color: $blue2;
+                border-radius: 25px;
+                color: white;
             }
         }
     }
