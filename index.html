@@ -14,11 +14,14 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- need this for hamburgerMenu -->
+    <script src="https://kit.fontawesome.com/0f0aeebdbb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="home">
         <nav>
-            <ul>
+            <button class="hamburgerMenu"><i class="fa-solid fa-bars"></i></button>
+            <ul class="headerLinks hideMe">
                 <li>
                     <a href="#home">Home</a>
                 </li>
@@ -185,7 +188,7 @@
                 </li>
             </ul>
         <p>Developed by Kunal Joshi © 2022</p>
-
     </footer>
+    <script src="./app.js"></script>
 </body>
 </html>

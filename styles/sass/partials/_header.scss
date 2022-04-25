@@ -1,14 +1,38 @@
 header {
+    nav {
+        min-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 10vh;
+        
 
         a {
             padding: 20px;
             margin: 0 20px;
         }
+    }
+}
+
+.hamburgerMenu{
+    width: 50px;
+    position:fixed;
+    top: 5px;
+    right: 5px;
+    display: none;
+    background-color: transparent;
+    color: $black;
+
+    &:hover,
+    &:focus {
+        color: $blue1;
+        background-color: transparent;
+        cursor: pointer;
     }
 }
 

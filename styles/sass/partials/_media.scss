@@ -25,12 +25,24 @@
     
         .contentContainer {
             width: 80%;
+        }   
+    }
+
+    .skill {
+        li {
+            width: 30%;;
         }
-    
     }
 }
 
 @media (max-width:670px) {
+    .skill {
+        li {
+            width: 50%;
+            ;
+        }
+    }
+
     .contactForm{
         flex-direction: column;
         width: 90%;
@@ -46,10 +58,21 @@
     }
 
     header {
-        ul {
+        .headerLinks {
             flex-direction: column;
             justify-content:center;
             align-items: center;
+            position: fixed;
+            left: -100%;
+            top:30px;
+            background-color: rgba(128, 128, 128, 0.365);
+            width: 100%;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .showMe{
+            left: 0;
         }
 
         li {
@@ -68,5 +91,13 @@
                 border-radius: 10px
             }
         }
+    }
+
+    .hamburgerMenu{
+        display: block;
+    }
+
+    .socials {
+        flex-direction: column;
     }
 }
