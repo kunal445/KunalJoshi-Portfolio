@@ -363,6 +363,7 @@ header ul a {
 }
 
 .indicator {
+  color: #0074d4;
   position: absolute;
   bottom: 10px;
   left: 50%;
