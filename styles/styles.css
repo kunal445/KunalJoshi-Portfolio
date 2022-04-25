@@ -638,7 +638,7 @@ footer {
     margin: 20px 0;
   }
 
-  header .headerLinks {
+  header .headerMenu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
