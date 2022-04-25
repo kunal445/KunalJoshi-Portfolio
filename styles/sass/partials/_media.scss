@@ -35,7 +35,7 @@
     }
 }
 
-@media (max-width:670px) {
+@media (max-width:680px) {
     .skill {
         li {
             width: 50%;
@@ -54,6 +54,17 @@
 
         textarea {
             margin: 20px 0;
+        }
+    }
+
+    .headerContent{
+        .wrapper{
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        img {
+            margin-top: 100px;
         }
     }
 
