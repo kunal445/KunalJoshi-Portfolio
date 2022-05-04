@@ -1,10 +1,12 @@
 header {
     position: relative;
+
     nav {
         min-height: 10vh;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        
     }
 
     ul {
@@ -21,9 +23,9 @@ header {
 }
 
 .logo {
-    position: absolute;
-    left: 25px;
-    top: 0;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .indicator {
@@ -37,15 +39,16 @@ header {
 .hamburgerMenu{
     width: 50px;
     position:fixed;
-    top: 5px;
-    right: 5px;
+    top: 1.5%;
+    right: 2%;
     display: none;
     background-color: transparent;
     color: $black;
+    font-size: 1.5rem;
 
     &:hover,
     &:focus {
-        color: $blue1;
+        color: $blue2;
         background-color: transparent;
         cursor: pointer;
     }

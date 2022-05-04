@@ -71,12 +71,12 @@
             align-items: center;
             position: fixed;
             left: -100%;
-            top:35px;
+            top: 0px;
             width: 100%;
-            min-height: 90vh;
-            border-radius: 25px;
+            min-height: 100vh;
             transition: 0.3s;
-            
+            background-color: $blue1;
+            z-index: 10;
         }
 
         .showMe{
@@ -88,9 +88,10 @@
             display: flex;
             justify-content:center;
             margin: 20px 0;
+            
         }
 
-        a{
+        .navLink{
             width: 100%;
             text-align: center;
             color: white;
@@ -108,7 +109,12 @@
     }
 
     .hamburgerMenu{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+        border: 1px solid $blue2;
+        color: black;
     }
 
     .socials {

@@ -336,9 +336,9 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 header ul {
   display: -webkit-box;
@@ -357,9 +357,9 @@ header ul a {
 }
 
 .logo {
-  position: absolute;
-  left: 25px;
-  top: 0;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .indicator {
@@ -374,14 +374,15 @@ header ul a {
 .hamburgerMenu {
   width: 50px;
   position: fixed;
-  top: 5px;
-  right: 5px;
+  top: 1.5%;
+  right: 2%;
   display: none;
   background-color: transparent;
   color: #2b2b2b;
+  font-size: 1.5rem;
 }
 .hamburgerMenu:hover, .hamburgerMenu:focus {
-  color: #0074d4;
+  color: #00a2eb;
   background-color: transparent;
   cursor: pointer;
 }
@@ -700,12 +701,13 @@ footer {
             align-items: center;
     position: fixed;
     left: -100%;
-    top: 35px;
+    top: 0px;
     width: 100%;
-    min-height: 90vh;
-    border-radius: 25px;
+    min-height: 100vh;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    background-color: #0074d4;
+    z-index: 10;
   }
   header .showMe {
     left: 0;
@@ -720,21 +722,32 @@ footer {
             justify-content: center;
     margin: 20px 0;
   }
-  header a {
+  header .navLink {
     width: 100%;
     text-align: center;
     color: white;
     background-color: #0074d4;
     border-radius: 25px;
   }
-  header a:hover, header a:focus {
+  header .navLink:hover, header .navLink:focus {
     background-color: #00a2eb;
     border-radius: 25px;
     color: white;
   }
 
   .hamburgerMenu {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 20;
+    border: 1px solid #00a2eb;
+    color: black;
   }
 
   .socials {
