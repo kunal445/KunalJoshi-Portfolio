@@ -388,7 +388,9 @@ header ul a {
 }
 
 .headerContent {
-  background-color: rgba(0, 161, 235, 0.2);
+  background: rgb(254, 253, 255);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(254, 253, 255)), to(rgb(56, 56, 56)));
+  background: linear-gradient(180deg, rgb(254, 253, 255) 0%, rgb(56, 56, 56) 100%);
   border-top: 1px solid #0074d4;
 }
 .headerContent .wrapper {

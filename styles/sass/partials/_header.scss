@@ -55,7 +55,9 @@ header {
 }
 
 .headerContent {
-    background-color: $blue3;
+    // background-color: $blue3;
+    background: rgb(254, 253, 255);
+    background: linear-gradient(180deg, rgba(254, 253, 255, 1) 0%, rgba(56, 56, 56, 1) 100%);
     border-top: 1px solid $blue1;
     
 
