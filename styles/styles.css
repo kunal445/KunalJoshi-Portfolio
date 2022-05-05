@@ -230,6 +230,7 @@ html {
   font-size: 125%;
   color: #2b2b2b;
   scroll-behavior: smooth;
+  background: rgb(244, 243, 243);
 }
 
 ul,
@@ -327,6 +328,7 @@ button:hover, button:focus {
 
 header {
   position: relative;
+  background-color: white;
 }
 header nav {
   min-height: 10vh;
