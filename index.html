@@ -1,232 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Coding Rockstar, Tech Guru, Front-End, developer, React, Kunal, Kunal Joshi">
-    <meta name="author" content="Kunal Joshi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Coding Rockstar, Tech Guru, Front-End, developer, React, Kunal, Kunal Joshi"
+    />
+    <meta name="author" content="Kunal Joshi" />
     <title>Kunal's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
     <!-- need this for hamburgerMenu -->
-    <script src="https://kit.fontawesome.com/0f0aeebdbb.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/0f0aeebdbb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header id="home">
-        <nav>
-            <a href="#home" class="logo">Kunal</a>
-            <button class="hamburgerMenu"><i class="fa-solid fa-bars"></i></button>
-            <ul class="headerMenu">
-                <li class="headerLink">
-                    <a href="#home" class="navLink">Home</a>
-                </li>
-                <li class="headerLink">
-                    <a href="#about" class="navLink">About</a>
-                </li>
-                <li class="headerLink">
-                    <a href="#projects" class="navLink">Projects</a>
-                </li>
-                <li class="headerLink">
-                    <a href="#contact" class="navLink">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <section class="headerContent">
-            <div class="wrapper">
-                <div class="intro">
-                    <h1>Kunal Joshi</h1>
-                    <h2>Front-End Developer</h2>
-                    <p>I am a front-end developer based out of Mississauga, ON Canada.</p>
-                </div>
-                <div class="headerImgContainer">
-                    <img src="./assets/kunal-professional-removebg.jpg" alt="An Image of Kunal Joshi in bussniess attire">
-                </div>
-            </div>
-        </section>
-        <a href="#about"><i class="fa-solid fa-angle-down indicator"></i></a>
+      <nav>
+        <a href="#home" class="logo">Kunal</a>
+        <button class="hamburgerMenu"><i class="fa-solid fa-bars"></i></button>
+        <ul class="headerMenu">
+          <li class="headerLink">
+            <a href="#home" class="navLink">Home</a>
+          </li>
+          <li class="headerLink">
+            <a href="#about" class="navLink">About</a>
+          </li>
+          <li class="headerLink">
+            <a href="#projects" class="navLink">Projects</a>
+          </li>
+          <li class="headerLink">
+            <a href="#contact" class="navLink">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="headerContent">
+        <div class="wrapper">
+          <div class="intro">
+            <h1>Kunal Joshi</h1>
+            <h2>Front-End Developer</h2>
+            <p>
+              I am a front-end developer based out of Mississauga, ON Canada.
+            </p>
+          </div>
+          <div class="headerImgContainer">
+            <img src="./assets/kunal-new.png" alt="An Image of Kunal Joshi" />
+          </div>
+        </div>
+      </section>
+      <a href="#about"><i class="fa-solid fa-angle-down indicator"></i></a>
     </header>
 
-    <main class="wrapper"> 
-        <section id="about" class="about">
-            <h3>About<span class="headingStyle"></span><span class="smallBlock"></span></h3>
-            <p>Hi, I am Kunal Joshi, A front-end web developer with a passion for problem-solving and collaboration. I am a recent
-            graduate of Juno College's immersive web development Bootcamp looking to create immersive, interactive, responsive, and
-            accessible web experiences.</p>
-            
-            <p>When I am not coding, you'll often find me playing online video games, watching anime, learning to cook, or watching
-            Marvel movies. If you ever want to discuss anime, games, projects you are working on, or which spiderman movie is the
-            best one feel free to contact me.</p>
-        </section>
-        <section class="skill">
-                <h3>Skills<span class="headingStyle"></span> <span class="smallBlock"></span></h3>
-                <!-- add icons for all the skills i use here, htlm, css, next.js ect -->
-                <!-- hide the text but keep it there for seo -->
-                <ul>
-                    <li>
-                        <i class="devicon-html5-plain-wordmark colored"></i>
-                        <p class="sr-only">Icon for HTML5</p>
-                    </li>
-                    <li>
-                        <i class="devicon-css3-plain-wordmark colored"></i>
-                        <p class="sr-only">Icon for CSS3</p>
-                    </li>
-                    <li>
-                        <i class="devicon-javascript-plain colored"></i>
-                        <p class="sr-only">Icon for JavaScript(ES6)</p>
-                    </li>
-                    <li>
-                        <i class="devicon-jquery-plain-wordmark colored"></i>
-                        <p class="sr-only">Icon for JQuery</p>
-                    </li>
-                    <li>
-                        <i class="devicon-git-plain-wordmark colored"></i>
-                        <p class="sr-only">Icon for Git</p>
-                    </li>
-                    <li>
-                        <i class="devicon-sass-original colored"></i>
-                        <p class="sr-only">Icon for SASS</p>
-                    </li>
-                    <li>
-                        <i class="devicon-react-original-wordmark colored"></i>
-                        <p class="sr-only">Icon for React</p>
-                    </li>
-                    <!-- <li>
+    <main class="wrapper">
+      <section id="about" class="about">
+        <h3>
+          About<span class="headingStyle"></span
+          ><span class="smallBlock"></span>
+        </h3>
+        <p>
+          Hi, I am Kunal Joshi, A front-end web developer with a passion for
+          crafting visually appealing and engaging websites that exceed customer
+          expectations. Possess strong foundation in HTML, CSS,JavaScript, and
+          Bootstrap, and adept at adapting to emerging technologies. Committed
+          to staying up-to-date with industry trends and continuously enhancing
+          skill set to deliver innovative and user-friendly web solutions.
+        </p>
+
+        <p>
+          When I am not coding, you'll often find me playing online video games,
+          watching anime, learning to cook, or watching Marvel movies. If you
+          ever want to discuss anime, games, projects you are working on, or
+          which spiderman movie is the best one feel free to contact me.
+        </p>
+      </section>
+      <section class="skill">
+        <h3>
+          Skills<span class="headingStyle"></span>
+          <span class="smallBlock"></span>
+        </h3>
+        <!-- add icons for all the skills i use here, htlm, css, next.js ect -->
+        <!-- hide the text but keep it there for seo -->
+        <ul>
+          <li>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <p class="sr-only">Icon for HTML5</p>
+          </li>
+          <li>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <p class="sr-only">Icon for CSS3</p>
+          </li>
+          <li>
+            <i class="devicon-javascript-plain colored"></i>
+            <p class="sr-only">Icon for JavaScript(ES6)</p>
+          </li>
+          <li>
+            <i class="devicon-jquery-plain-wordmark colored"></i>
+            <p class="sr-only">Icon for JQuery</p>
+          </li>
+          <li>
+            <i class="devicon-git-plain-wordmark colored"></i>
+            <p class="sr-only">Icon for Git</p>
+          </li>
+          <li>
+            <i class="devicon-sass-original colored"></i>
+            <p class="sr-only">Icon for SASS</p>
+          </li>
+          <li>
+            <i class="devicon-react-original-wordmark colored"></i>
+            <p class="sr-only">Icon for React</p>
+          </li>
+          <!-- <li>
                         <i class="devicon-babel-plain colored"></i>
                         <p class="sr-only">Icon for Babel</p>
                     </li> -->
-                    <li>
-                        <i class="devicon-firebase-plain-wordmark colored"></i>
-                        <p class="sr-only">Icon for Firebase</p>
-                    </li>
-                    <li>
-                        <i class="devicon-typescript-plain colored"></i>
-                        <p class="sr-only">Icon for Typescript</p>
-                    </li>
-                    <li>
-                        <i class="devicon-nextjs-original-wordmark colored"></i>
-                        <p class="sr-only">Icon for Next.js</p>
-                    </li>
-                    <li>
-                        <i class="devicon-github-original-wordmark colored"></i>
-                        <p class="sr-only">Icon for GitHub</p>
-                    </li>
-                    <li>
-                        <i class="devicon-vscode-plain colored"></i>
-                        <p class="sr-only">Icon for Vs Code</p>
-                    </li>
-                    <li>
-                        <i class="devicon-visualstudio-plain colored"></i>
-                        <p class="sr-only">Icon for Visual studio</p>
-                    </li>
-                    <li>
-                        <i class="devicon-csharp-plain colored"></i>
-                        <p class="sr-only">Icon for C#</p>
-                    </li>
-                    <li>
-                        <i class="devicon-unity-original-wordmark colored"></i>
-                        <p class="sr-only">Icon for Unity</p>
-                    </li>
-            
-                </ul>
-        </section>
+          <li>
+            <i class="devicon-firebase-plain-wordmark colored"></i>
+            <p class="sr-only">Icon for Firebase</p>
+          </li>
+          <li>
+            <i class="devicon-typescript-plain colored"></i>
+            <p class="sr-only">Icon for Typescript</p>
+          </li>
+          <li>
+            <i class="devicon-nextjs-original-wordmark colored"></i>
+            <p class="sr-only">Icon for Next.js</p>
+          </li>
+          <li>
+            <i class="devicon-github-original-wordmark colored"></i>
+            <p class="sr-only">Icon for GitHub</p>
+          </li>
+          <li>
+            <i class="devicon-vscode-plain colored"></i>
+            <p class="sr-only">Icon for Vs Code</p>
+          </li>
+          <li>
+            <i class="devicon-visualstudio-plain colored"></i>
+            <p class="sr-only">Icon for Visual studio</p>
+          </li>
+          <li>
+            <i class="devicon-csharp-plain colored"></i>
+            <p class="sr-only">Icon for C#</p>
+          </li>
+          <li>
+            <i class="devicon-unity-original-wordmark colored"></i>
+            <p class="sr-only">Icon for Unity</p>
+          </li>
+        </ul>
+      </section>
 
-        <section id="projects" class="projects">
-            <h3>Projects<span class="headingStyle"></span><span class="smallBlock"></span></h3>
+      <section id="projects" class="projects">
+        <h3>
+          Projects<span class="headingStyle"></span
+          ><span class="smallBlock"></span>
+        </h3>
 
-            <!-- ideally  create this object via json and use js to create the elements -->
-            <div class="card">
-                <img src="./assets/gifs/beachstays.gif" alt="a working demo of the psd conversion project showing responsive home page and blog page">
-                <div class="contentContainer">
-                    <h4>BeachStays</h4>
-                    <p>Beachstays is a multipage psd conversion project. It is full responsive built using JavaScript, HTML5, CSS3 and SASS. Please check out the links below if you wish to see the live demo.</p>
-                    <a href="https://beachstays-kunal.netlify.app/index.html" target="_blank">Live</a>
-                    <a href="https://github.com/kunal445/KuanlJoshiProject1" target="_blank">Repo</a>
-                </div>
-            </div>
+        <!-- ideally  create this object via json and use js to create the elements -->
+        <div class="card">
+          <img
+            src="./assets/gifs/beachstays.gif"
+            alt="a working demo of the psd conversion project showing responsive home page and blog page"
+          />
+          <div class="contentContainer">
+            <h4>BeachStays</h4>
+            <p>
+              Beachstays is a multipage psd conversion project. It is full
+              responsive built using JavaScript, HTML5, CSS3 and SASS. Please
+              check out the links below if you wish to see the live demo.
+            </p>
+            <a
+              href="https://beachstays-kunal.netlify.app/index.html"
+              target="_blank"
+              >Live</a
+            >
+            <a
+              href="https://github.com/kunal445/KuanlJoshiProject1"
+              target="_blank"
+              >Repo</a
+            >
+          </div>
+        </div>
 
-            <div class="card">
-                <img src="./assets/gifs/anidex.gif" alt="a working demo of the anidex website showing the search results for naruto">
-                <div class="contentContainer">
-                    <h4>Anidex</h4>
-                    <p>Anidex is a simple yet powerful, responsive web app to help you quickly look up information about your favorite anime. It was built using the Jikan REST API in collaboration with my partner Antoine Duong. The skills required to build this project include but are not limited to HTML5, CSS3, JavaScript, SASS, Git, and pair programming. Please check out the links below if you wish to see the live demo.</p>
-                    <a href="https://anidex-app.netlify.app/" target="_blank">Live</a>
-                    <a href="https://github.com/wd40-group-12/project-2-anime-facts" target="_blank">Repo</a>
-                </div>
-            </div>
+        <div class="card">
+          <img
+            src="./assets/gifs/anidex.gif"
+            alt="a working demo of the anidex website showing the search results for naruto"
+          />
+          <div class="contentContainer">
+            <h4>Anidex</h4>
+            <p>
+              Anidex is a simple yet powerful, responsive web app to help you
+              quickly look up information about your favorite anime. It was
+              built using the Jikan REST API in collaboration with my partner
+              Antoine Duong. The skills required to build this project include
+              but are not limited to HTML5, CSS3, JavaScript, SASS, Git, and
+              pair programming. Please check out the links below if you wish to
+              see the live demo.
+            </p>
+            <a href="https://anidex-app.netlify.app/" target="_blank">Live</a>
+            <a
+              href="https://github.com/wd40-group-12/project-2-anime-facts"
+              target="_blank"
+              >Repo</a
+            >
+          </div>
+        </div>
 
-            <div class="card">
-                <img src="./assets/gifs/MMOHunter.gif"
-                    alt="a working demo of the MMOHhunter website">
-                <div class="contentContainer">
-                    <h4>MMOHunter</h4>
-                    <p>MMOHunter is a react web app that lets you find the next mmo by genre.It was build using react, react routing and firebase.</p>
-                    <a href="https://mmohunter.netlify.app/" target="_blank">Live</a>
-                    <a href="https://github.com/kunal445/KunalJoshiProject3" target="_blank">Repo</a>
-                </div>
-            </div>
+        <div class="card">
+          <img
+            src="./assets/gifs/MMOHunter.gif"
+            alt="a working demo of the MMOHhunter website"
+          />
+          <div class="contentContainer">
+            <h4>MMOHunter</h4>
+            <p>
+              MMOHunter is a react web app that lets you find the next mmo by
+              genre.It was build using react, react routing and firebase.
+            </p>
+            <a href="https://mmohunter.netlify.app/" target="_blank">Live</a>
+            <a
+              href="https://github.com/kunal445/KunalJoshiProject3"
+              target="_blank"
+              >Repo</a
+            >
+          </div>
+        </div>
 
-            <div class="card">
-                <img src="./assets/gifs/concertAcountant.gif" alt="a working demo of the Concert Accountant website">
-                <div class="contentContainer">
-                    <h4>Concert Accountant</h4>
-                    <p>Concert Accountant is a react web app that lets you create and manage a list of all the upcoming concerts with a budget tracker. This app uses the Ticketmaster API to find all the concerts and prices.</p>
-                    <a href="https://concertaccountant.netlify.app/" target="_blank">Live</a>
-                    <a href="https://github.com/Project4-Concert-Accountant/concert-accountant" target="_blank">Repo</a>
-                </div>
-            </div>
+        <div class="card">
+          <img
+            src="./assets/gifs/concertAcountant.gif"
+            alt="a working demo of the Concert Accountant website"
+          />
+          <div class="contentContainer">
+            <h4>Concert Accountant</h4>
+            <p>
+              Concert Accountant is a react web app that lets you create and
+              manage a list of all the upcoming concerts with a budget tracker.
+              This app uses the Ticketmaster API to find all the concerts and
+              prices.
+            </p>
+            <a href="https://concertaccountant.netlify.app/" target="_blank"
+              >Live</a
+            >
+            <a
+              href="https://github.com/Project4-Concert-Accountant/concert-accountant"
+              target="_blank"
+              >Repo</a
+            >
+          </div>
+        </div>
 
-            <h3>Additional Projects<span class="headingStyle"></span><span class="smallBlock"></span></h3>
+        <h3>
+          Additional Projects<span class="headingStyle"></span
+          ><span class="smallBlock"></span>
+        </h3>
 
-            <div class="card">
-                <img src="./assets/gifs/idolshowdown.gif" alt="a working demo of the idolshowdown game going from character selects to the game itself">
-                <div class="contentContainer">
-                    <h4>Idol Showdown</h4>
-                    <p>Idol Showdown is a fan-based 2D fighting game based on the Vtubers from Hololive. The project in ongoing with a development team of over 80 people.The project is being built using the unity Game engine and C# programming language. The skills required to build this project are C#, Unity, Git, Code Review and pair programming. The project is still in development However for more info please check out our Twitter</p>
-                    <a href="https://twitter.com/IdolShowdown" target="_blank">Twitter</a>
-                </div>
-            </div>
-        </section>
+        <div class="card">
+          <img
+            src="./assets/gifs/idolshowdown.gif"
+            alt="a working demo of the idolshowdown game going from character selects to the game itself"
+          />
+          <div class="contentContainer">
+            <h4>Idol Showdown</h4>
+            <p>
+              Idol Showdown is a fan-based 2D fighting game based on the Vtubers
+              from Hololive. The project in ongoing with a development team of
+              over 80 people.The project is being built using the unity Game
+              engine and C# programming language. The skills required to build
+              this project are C#, Unity, Git, Code Review and pair programming.
+              The project is still in development However for more info please
+              check out our Twitter
+            </p>
+            <a href="https://twitter.com/IdolShowdown" target="_blank"
+              >Twitter</a
+            >
+          </div>
+        </div>
+      </section>
 
-        <section id="contact" class="contact">
-            <h3>Contact <span class="headingStyle"></span><span class="smallBlock"></span></h3>
-            <form action="https://formspree.io/f/xnqwojyl"
-            method="POST"  
-            class="contactForm">
-                <label for="name" class="sr-only">Name</label>
-                <input type="text" id="name" class = "name" placeholder="Name" name="name">
-                <label for="email" class="sr-only">Email</label>
-                <input type="email" id="email" class = "email" placeholder="Email" name="email">
-                <label for="message" class="sr-only">comment</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                <button type="submit">Send message</button>
-            </form>
-        </section>
+      <section id="contact" class="contact">
+        <h3>
+          Contact <span class="headingStyle"></span
+          ><span class="smallBlock"></span>
+        </h3>
+        <form
+          action="https://formspree.io/f/xnqwojyl"
+          method="POST"
+          class="contactForm"
+        >
+          <label for="name" class="sr-only">Name</label>
+          <input
+            type="text"
+            id="name"
+            class="name"
+            placeholder="Name"
+            name="name"
+          />
+          <label for="email" class="sr-only">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="email"
+            placeholder="Email"
+            name="email"
+          />
+          <label for="message" class="sr-only">comment</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <button type="submit">Send message</button>
+        </form>
+      </section>
     </main>
 
     <footer class="wrapper">
-            <a href="#home">Back to top</a>
-            <ul id="socials" class="socials">
-                <li>
-                    <!-- these should be icons -->
-                    <a href="https://github.com/kunal445" target="_blank"><i class="devicon-github-original colored"></i></a>
-                </li>
-                <li>
-                    <!-- these should be icons -->
-                    <a href="https://www.linkedin.com/in/kunal-joshi1/" target="_blank"><i class="devicon-linkedin-plain colored"></i></a>
-                </li>
-                <li>
-                    <!-- these should be icons -->
-                    <a href="https://twitter.com/kunalj12" target="_blank"><i class="devicon-twitter-original colored"></i></a>
-                </li>
-            </ul>
-        <p>Developed by Kunal Joshi © 2022</p>
+      <a href="#home">Back to top</a>
+      <ul id="socials" class="socials">
+        <li>
+          <!-- these should be icons -->
+          <a href="https://github.com/kunal445" target="_blank"
+            ><i class="devicon-github-original colored"></i
+          ></a>
+        </li>
+        <li>
+          <!-- these should be icons -->
+          <a href="https://www.linkedin.com/in/kunal-joshi1/" target="_blank"
+            ><i class="devicon-linkedin-plain colored"></i
+          ></a>
+        </li>
+        <li>
+          <!-- these should be icons -->
+          <a href="https://twitter.com/kunalj12" target="_blank"
+            ><i class="devicon-twitter-original colored"></i
+          ></a>
+        </li>
+      </ul>
+      <p>Developed by Kunal Joshi © 2022</p>
     </footer>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
